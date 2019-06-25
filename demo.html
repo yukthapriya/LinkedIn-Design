@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+ <html ng-app="StarterApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="canonical" href="https://www.linkedin.com/in/jeffweiner08"/>
+
+</head>
+<link rel="stylesheet" href="C:\Users\mani sai prasad\Desktop\frontend\inter project\css\style.css">
+
+       <body>
+        <div>
+            <nav  class="navbar  navbar-expand-lg navbar-light bg-light" role="navigation" id="topmenu">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"><i class="glyphicon glyphicon-home"></i></span>
+                            <span class="icon-bar"><i class="glyphicon glyphicon-user"></i></span>
+                            <span class="icon-bar"><li class="glyphicon glyphicon-briefcase"></li></span>
+                            <span class="icon-bar"><li class="glyphicon glyphicon-bell"></li></span>
+                           <span class="icon-bar"><li class="glyphicon glyphicon-inbox"></li></span>
+                           <span class="icon-bar"><li class="glyphicon glyphicon-th"></li></span>
+                           <li class="profile"></li>
+                         
+                        </button>
+                      </div>
+                  <!-- <ul class="navbar-nav mr-auto" style="list-style: none;"> -->
+                      <ul class="nav navbar-nav">
+
+                     
+                            <li> <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                             <a class="navbar-brand" href="#">
+                               <i class="fa fa-linkedin" 
+                              style="padding:5px;margin-top: -1.2em;
+                               color:whitesmoke;
+                               background-color: rgb(8, 78, 110);font-size: 2em;">
+                               </i>
+                              </a>
+                            <!-- Search form -->
+                          
+                          </li>
+                          <li class="navigate">
+                    <li class="text-center">
+                        <a href="#" data-toggle="collapse" data-target="#">
+                          <i class="glyphicon glyphicon-home"></i>
+                          <br>Home</a>
+                      </li>
+                   
+                    <!-- <li class="nav-item">
+                        <i class="glyphicon glyphicon-user"><br>  -->
+                          <li class="text-center">
+                              <a href="#" data-toggle="collapse" data-target="#">
+                                <i class="glyphicon glyphicon-user"></i>
+                                <br>My Network</a>
+                            </li>
+                            <li class="text-center">
+                                <a href="#" data-toggle="collapse" data-target="#">
+                                  <i class="glyphicon glyphicon-briefcase"></i>
+                                  <br>Jobs</a>
+                              </li>
+                              <li class="text-center">
+                                  <a href="#" data-toggle="collapse" data-target="#">
+                                    <i class="glyphicon glyphicon-inbox"></i>
+                                    <br>Messaging</a>
+                                </li>
+                                <li class="text-center">
+                                    <a href="#" data-toggle="collapse" data-target="#">
+                                      <i class="glyphicon glyphicon-bell"></i>
+                                      <br>Notifications</a>
+                                  </li>
+                                     <li class="text-center" style="margin-top: -30px;">
+                                    <li class="profile">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                                      data-toggle="dropdown">
+                                      <img src="photo.jpg" alt="" height="30px">
+                                      <br>
+                                      Me<span class="caret"></span></a>
+                                          <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">html</a>
+                                                  <a class="dropdown-item" href="#">css</a>
+                                                
+                                                  <a class="dropdown-item" href="#">javascript</a>
+                                                  </div></li>
+                                               
+                                        <!-- <a class="nav-link dropdown-toggle" href ="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown">
+                                        <li class="glyphicon glyphicon-th"></li><br>
+                                        Work
+                                         <span class="caret"></span> <div class="dropdown-menu">
+                                                   <a class="dropdown-item" href="#">html</a>
+                                                   <a class="dropdown-item" href="#">css</a>
+                                                 
+                                                   <a class="dropdown-item" href="#">javascript</a>
+                                                   </div></a> -->
+                                                   
+                                    </li>
+                                    </div> 
+                                </ul>
+                            </nav>
+                            </div>
+       
+      <div class="container">
+        <div class="row">  
+           
+           <img class="img-responsive" src="banner.svg";>
+           
+       
+        <div class="col-sm">
+                <div class="col-sm" style="padding-bottom: 10px; margin-bottom: 50px;">
+                     <div class="well">       
+                <img class="img-circle" style="position: relative;"src="photo.jpg">  
+                <div class="card0">
+                   <a href="#" class="top-menu pull-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                  <div class="card-body">
+                    <h2 class="card-title">Yuktha Priya</h2>
+             
+                    <p>Student at Information Technology Institute(ITI)</p>
+                 
+                    <p class="text-muted">Egypt</p>
+                    </div>
+                   
+              
+                    <form class="form-inline">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    Add Profile Section <span class="caret"></span></a>
+                                 
+                                  <dl class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                      aria-expanded="false">
+                                      <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                       </ul>
+                                      </dl>
+                                    
+                                    </button>
+                                   
+                      <button class="btn btn-col-3 btn-outline-secondary" type="button">More...</button>
+                    </form>
+                 
+     
+                      <hr><hr>
+                  <p class="card-text">A Front end developer | UI developer experienced .Extremely motivated and committed to deliver the highest standard of work.I have qualifications in Web dvelopment
+                       using html,css,SASS,javascript,JQuery,Bootstrap library... Ihave Ability to hard worker,Shares Knowledge,responsibilities,and experti.... ...</p>
+                      
+                      <hr> <h4 class="side">
+                        <hr>  <dl class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                              aria-expanded="false">Show more<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                </ul>
+                              </dl>
+                       </h4>
+                </div> 
+              </div>
+              </div>
+                <br></div>
+                </div></div>
+                </div>
+                        <div class="card8">
+                          <div class="">
+                            <div class="col-sm">
+                            <div class="card-body">
+                              <br>
+                              <h4 style="color:black;">Profile Strength: <br>
+                                <h5>Intermediate</h5></h4>
+                               
+                                 
+                               <div class="progress">
+                                  <tr>
+                                  <th>  <div class="progress-bar progress-bar" role="progressbar" style="width:30%;background: linear-gradient(blue,skyblue);">
+                                    
+                                    </div></th>
+
+                                  <th>  <div class="progress-bar progress-bar" role="progressbar" style="width:30%;background:linear-gradient(rgb(30, 196, 30),green);">
+                                    
+                                    </div></th>
+                                    <th> <div class="progress-bar progress" role="progressbar" style="width:20%;background: linear-gradient(rgb(158, 213, 235),rgb(26, 48, 191));">
+                                    
+                                      </div></th> 
+                                      <th> <div class="progress-bar progress" role="progressbar" style="width:30%;background: linear-gradient(blue,skyblue);">
+                                    
+                                        </div></th>
+                                   </tr>
+                                  </div>
+                                  
+                              </div>
+                              </div>
+                          </div>
+                            </div>
+
+                    <div class="dashboad">
+                        <div class="col-sm">
+                      <h3>Your Dashboard</h3>
+                      <p style="color:rgba(181, 208, 60, 0.973)";> <i> Private to you </i></p>
+                      <div class="card5">
+                          <div class="card-body">
+                          <table border="1px solid gray">
+                            <tr>
+                              <th>
+                                <h4 class="text">68</h4><br>
+                                <p style="color:gray";>Who viewed your profile</p>
+                              </th>
+                              <th>
+                                <h4 class="text">0</h4><br>
+                                  <p style="color:gray";>Article views</p>
+                                </th>
+                                <th>
+                                  <h4 class="text">41</h4><br>
+                                    <p style="color:gray";>Search appearances</p>
+                                  </th>
+                            </tr>
+                          </table>
+                          </div>
+                        </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="card6">
+                            <div class="col-3">
+                            <div class="card-body">
+                              <h4 style="color:black;">Career Advice</h4>
+                              <h5>participate in the career advice plateform</h5>
+                              <p style="color:gray">Get career advice by conversing with other LinkedIn users who are leaders in their fields</p>
+                            </div>
+                            <hr>
+                            <div class="card-body">
+                                <h4 style="color:black;">Career Interests</h4>
+                                <h5>Let recruiters know you're open</h5>
+                                <p style="color:gray">Choose the types of opportunities you'd like to be connected with</p>
+                              </div>
+                          </div>
+                          </div>
+                    </div>
+                
+                </div>
+                
+        <div class="card7">
+            <div class="card-body">
+              <div class="styl">
+                <a href="#" class="top-menu pull-left"><i class="fa fa-square" aria-hidden="true"></i> &nbsp;</a> 
+              </div>
+              <div class="row">
+                  <div class="col-sm">
+                <a href="#" class="top-menu pull-right"> 
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> &nbsp;</a>
+                <div class="sizing">
+                  <h4 class="card-title">Experience</h4>
+                <a href="#" class="top-menu pull-right"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                <h5 class="card-subtitle mb-2">UI Developer</h5>
+                <h6>freelancer</h6>
+                <p class="card-subtitle mb-2 text-muted">May 2018 - Present 10 mos <br>
+                Egypt</p>
+                <dl class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Show 3 more experiences <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </dl>
+                <hr>
+           </div>
+           </div>
+           </div>
+              </div>
+            
+                  <div class="styl1">
+                  <a href="#" class="top-menu pull-left"><i class="fa fa-medium" aria-hidden="true"></i> &nbsp;</a>
+                  </div>
+                  <div class="row">
+                   <div class="col-sm">
+                  <a href="#" class="top-menu pull-right">
+                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                 <div class="sizing">
+                   <h4 class="card-title">Education</h4>
+                  <a href="#" class="top-menu pull-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </a>
+                  <h6>Information Technology Institute(ITI)</h6>
+           
+                  <p class="card-subtitle mb-2 text-muted"> Enterprise & Web Apps (Microsoft) Track 
+                    </p>
+                  <p class="card-text mb-2 text-muted">2018 - 2019</p>
+                <hr>
+              </div>
+            </div>
+            </div>
+           
+                    <div class="styl">
+                    <a href="#" class="top-menu pull-left"><i class="fa fa-stop" aria-hidden="true"></i>  &nbsp; </a>
+                  
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                    <a href="#" class="top-menu pull-right"> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                   <div class="sizing">
+                    <h4 class="card-title">Licenses & Certifications</h4>
+                    <a href="#" class="top-menu pull-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                    <h6>Adobe Photoshop CS6</h6>
+                   
+                    <h5 class="card-subtitle mb-2 text-muted">graphics academy</h5><br>
+                    <h5 style="color:#1554e6;">See Credential</h5>
+                    <dl class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Show more<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </dl>
+                    </a>
+                    <hr>
+                  </div>
+                 </div>
+                </div>
+             
+
+            
+                  
+                      <div class="card1">
+                             <div class="col-sm">
+                          <h4 class="card-title">Skills & Endorsements</h4>
+                          <h5 class="aside">Add a new skills
+                          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></h5>
+                          <h5 class="card-subtitle"><b> CSS </b></p>
+                       
+                          <p class="card-subtitle mb-2 text-muted">Endorse by 2 of maryam's colleagues at TIEC</p>
+                         <hr>
+                       <hr>
+                       <h4 class="side">
+                          <dl class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Show more<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </dl>
+                       </h4>
+                      
+                      </div>
+                  
+                      </div>
+                   
+                   
+                      <div class="card2">
+                          <div class="card-body">
+                            <h3 class="card-title">Accomplishments</h3>
+                            
+                         <h4 class="side">
+                            <dl class="dropdown">
+                                <h5 class="aside">
+                                    <a href="#" class="top-menu pull-right"> <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </h5>
+                               </a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                aria-expanded="false">
+                                <h4 class="demo">  <Strong>8</strong> Courses
+                                   </h4><br>                  
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">Action</a></li>
+                                  <li><a href="#">Another action</a></li>
+                                  <li><a href="#">Something else here</a></li>
+                                  <li role="separator" class="divider"></li>
+                                  <li><a href="#">Separated link</a></li>
+                                </dl><br>
+                                <br>
+                                
+                                <h5>English at GateWay Center Innovation & Enterpreneurship training at Technology Innovation & entrepreneurship 
+                                    center(TIEC)Social Media & Design at MSP Tech Club Benha University Summer training
+                                    (C++) at Benha Faculty of computer and informatics(BFCI) Summer training (Cloud Application Developer Mastery)
+                                    at Benha Faculty of computer and informatics(BFCI) Summer training (HTML,CSS,JQuery,Php) at BFCI front-end web development 
+                                    diploma at amit learning center full stack web development diploma at route center.
+                                  </h5>  
+                                      
+                                <dl class="dropdown">
+                                    <h5 class="aside">
+                                        <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </h5>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                    aria-expanded="false">
+                                    <h4 class="demo"> <Strong>4</strong> Organisations
+                                       </h4>                         
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li><a href="#">Another action</a></li>
+                                      <li><a href="#">Something else here</a></li>
+                                      <li role="separator" class="divider"></li>
+                                      <li><a href="#">Separated link</a></li>
+                                    </dl><br>
+                                    <br>
+                                    <h5>Union BFCI MSP Tech Club Benha University Technoship Benha University Positive Student at 
+                                        Benha University.</h5>
+                                    <dl class="dropdown">
+                                        <h5 class="aside">
+                                            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </h5>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                        aria-expanded="false">
+                                        <h4 class="demo"> <Strong>3</strong> Projects
+                                           </h4>                          
+                                        <ul class="dropdown-menu">
+                                          <li><a href="#">Action</a></li>
+                                          <li><a href="#">Another action</a></li>
+                                          <li><a href="#">Something else here</a></li>
+                                          <li role="separator" class="divider"></li>
+                                          <li><a href="#">Separated link</a></li>
+                                        </dl><br><br>
+                                        <h5>Data Base Project System Analysis Web Design Projects</h5>
+                                        <dl class="dropdown">
+                                            <h5 class="aside">
+                                                <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </h5>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                            aria-expanded="false">
+                                            <h4 class="demo"> <Strong>2</strong> languages
+                                               </h4>                          
+                                            <ul class="dropdown-menu">
+                                              <li><a href="#">Action</a></li>
+                                              <li><a href="#">Another action</a></li>
+                                              <li><a href="#">Something else here</a></li>
+                                              <li role="separator" class="divider"></li>
+                                              <li><a href="#">Separated link</a></li>
+                                            </dl><br><br>
+                                            <h5>Arabic English</h5>
+                                            <dl class="dropdown">
+                                                <h5 class="aside">
+                                                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> </h5>
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                                                aria-expanded="false">
+                                                <h4 class="demo"> <Strong>1</strong> Publications
+                                                   </h4>                          
+                                                <ul class="dropdown-menu">
+                                                  <li><a href="#">Action</a></li>
+                                                  <li><a href="#">Another action</a></li>
+                                                  <li><a href="#">Something else here</a></li>
+                                                  <li role="separator" class="divider"></li>
+                                                  <li><a href="#">Separated link</a></li>
+                                                </dl><br><br>
+                                                <h5>My Portfolio</h5>
+                         </h4>
+                         <p></p>
+                          </div>
+                  </h4>
+                  <div></div>
+                <hr>
+                <div>
+                <b>LinkedIn</b> <a class="navbar-brand" href="#"><i class="fa fa-linkedin" style="padding:5px;color:whitesmoke;background-color: rgb(68, 112, 133);font-size: 2em;"></i>
+                </a>
+                <div class="container">
+                 
+                  
+                      <div class="row">
+                        <div class="col-sm-2">
+                         
+                          <p>About <br> Careers <br> Advertising <br> Mobile</p>
+                          
+                        </div>
+                        <div class="col-sm-2">
+                        
+                          <p>Talent Solutions <br>Marketing Solutions <br>Sales Solutions <br>Small Business</p>
+                        
+                        </div>
+                        <div class="col-sm-2">
+                            
+                          <p>Community Guideliness <br> Privacy & Terms <br> Send Feedback <br>Safety Center</p>
+                          
+                        </div>
+                        <div class="col-sm-2">
+                             
+                            <p><h5>Questions?</h5> Visit our Help Center</p>
+                            <p><h5>Manage your account and privacy.</h5>
+                            Go to your Settings.
+                            </p>
+                            <br>
+                            <br>
+                          </div>
+                          select Language
+                          <dl class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                              aria-expanded="false">English (English)<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </dl>
+    </div>
+                      </div>
+                     </div>
+                   </div>
+</body>
+</html>
